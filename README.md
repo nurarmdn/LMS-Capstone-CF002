@@ -12,11 +12,13 @@
 4. Setelah menunggu proses deploy selesai, lakukan koneksi ke dalam Linux melalui SSH
 ![](https://user-images.githubusercontent.com/79042149/143492758-4c1d0e22-a859-4ebc-9e16-112c6dd40382.png)
 5. Tunggu beberapa menit, kemudian telusuri IP yang sudah dibuat
-![Screenshot (1377)](https://user-images.githubusercontent.com/79042149/143492807-81b3ea88-8440-4836-a89a-7d60858b51cd.png)
+![](https://user-images.githubusercontent.com/79042149/143492807-81b3ea88-8440-4836-a89a-7d60858b51cd.png)
 6. Moodle sudah selesai dibuat dan dapat dioperasikan. Untuk tampilan, maka dapat disesuaikan dengan kreatifitas masing-masing.
 7. Jika ingin menggunakan tema template, maka buka situs resmi moodle <https://moodle.org/plugins/>
-8. lakukan pemasangan template melalui moodle dengan masuk ke bagian Side administration-> Plugins-> Install plugins
-9. Tambahkan DNS untuk kemudahan mengakses website. DNS dapat disetting melalui Azure maupun pihak ketiga.
+8. Untuk masuk sebagai user, maka harus memasukkan username dan password. Username dan Password dapat ditemukan melalui VM-> Boot diagnostics-> Serial log.
+![](https://user-images.githubusercontent.com/79042149/143493375-4b39615e-75c7-412c-bb59-1b068948c1a8.png)
+9. lakukan pemasangan template melalui moodle dengan masuk ke bagian Side administration-> Plugins-> Install plugins
+10. Tambahkan DNS untuk kemudahan mengakses website. DNS dapat disetting melalui Azure maupun pihak ketiga.
 
 
 ### Hasil Tampilan Website:
